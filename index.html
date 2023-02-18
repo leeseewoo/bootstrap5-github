@@ -51,11 +51,42 @@
           <button class="btn btn-link text-light flex-shrink-0 me-2 text-decoration-none">Sign in</button>
           <button class="btn btn-outline-light flex-shrink-0">Sign up</button>
         </div>
+        <button class="btn ms-2" data-bs-toggle="offcanvas" data-bs-target="#offcanvas">
+          <img src="./images/menu.svg" alt="Menu Icon">
+        </button>
+        <div class="offcanvas offcanvas-end" id="offcanvas">
+          <div class="offcanvas-header">
+            <button class="btn-close" data-bs-dismiss="offcanvas"></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="list-group list-group-flush mb-4">
+              <li class="list-group-item">
+                <a href="#">Personal</a>
+              </li>
+              <li class="list-group-item">
+                <a href="#">Open Source</a>
+              </li>
+              <li class="list-group-item">
+                <a href="#">Business</a>
+              </li>
+              <li class="list-group-item">
+                <a href="#">Explore</a>
+              </li>             
+            </ul>
+            <input type="text" class="form-control mb-2" placeholder="Search Github">
+            <div class="d-grid mb-2">
+              <button class="btn btn-outline-primary">Sign In</button>
+            </div>
+            <div class="d-grid">
+              <button class="btn btn-primary">Sign Up</button>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
     <div class="container">
       <div class="row">
-        <div class="col-7">
+        <div class="col-lg-7 col-12">
           <div class="headline">
             <h1 class="text-white">Where the world builds software</h1>
             <p class="text-white-50">Millions of developers and companies build, ship, and maintain their software on GitHub—the largest and most advanced development platform in the world.</p>
@@ -63,7 +94,7 @@
         </div>
       </div>
       <div class="row">
-        <div class="col-5">
+        <div class="col-lg-5 col-md-6 col-12">
           <form>
             <input type="text" class="form-control form-control-lg mb-3" placeholder="Email address">
             <input type="password" class="form-control form-control-lg mb-3" placeholder="Password">
@@ -81,7 +112,7 @@
   <!-- YOUTUBE  -->
   <section class="youtube">
     <div class="container">
-      <img src="./images/hero-astronaut.svg" alt="Astronaul" class="astronaut">
+      <img src="./images/hero-astronaut.svg" alt="Astronaut" class="astronaut">
       <div class="ratio ratio-16x9">
         <!-- <iframe src="https://www.youtube.com/embed/7WuBM9745I8" title="Zack Snyder&#39;s Justice League | Superman&#39;s Flight 2.0 (but it&#39;s with the red and blue suit) [FANMADE]" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
         <iframe src="https://www.youtube.com/embed/2m9nUP-e8Co" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
@@ -93,7 +124,7 @@
   <section class="features border-top border-bottom">
     <div class="container">
       <div class="row">
-        <div class="col-3">
+        <div class="col-lg-3 col-6">
           <div class="card">
             <img src="./images/features-build.png" alt="Build" class="card-img-top">
             <div class="card-body text-center">
@@ -102,7 +133,7 @@
             </div>
           </div>          
         </div>
-        <div class="col-3">
+        <div class="col-lg-3 col-6">
           <div class="card">
             <img src="./images/features-work.png" alt="Work" class="card-img-top">
             <div class="card-body text-center">
@@ -111,7 +142,7 @@
             </div>
           </div>
         </div>        
-        <div class="col-3">
+        <div class="col-lg-3 col-6">
           <div class="card">
             <img src="./images/features-projects.png" alt="Project" class="card-img-top">
             <div class="card-body text-center">
@@ -120,7 +151,7 @@
             </div>
           </div>
         </div>        
-        <div class="col-3">
+        <div class="col-lg-3 col-6">
           <div class="card">
             <img src="./images/features-platform.png" alt="Platform" class="card-img-top">
             <div class="card-body text-center">
@@ -137,11 +168,11 @@
   <section class="map">
     <div class="container">
       <div class="row">
-        <div class="col-4">
+        <div class="col-lg-4 col-12">
           <h1>Where is GitHub?</h1>
           <p>GitHub is where people build software. More than 18 million people use GitHub to discover, fork, and contribute to over 48 million projects.</p>
         </div>
-        <div class="col-8">
+        <div class="col-lg-8 col-12">
           <div id="map" class="shadow">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3576.4682727362647!2d-122.39309942040764!3d37.78267513336626!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085807f619a62df%3A0x491ce2f73977af35!2sGitHub!5e0!3m2!1sko!2skr!4v1667199132180!5m2!1sko!2skr" style="width: 100%; height: 100%; border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
           </div>
@@ -156,10 +187,10 @@
     <div class="container">
       <img class="illustration" src="./images/footer-illustration.webp" alt="Illustration">
       <div class="row">
-        <div class="col-4">
+        <div class="col-lg-4 col-12">
           <img src="./images/footer-logo.svg" alt="Logo" class="logo">
         </div>
-        <div class="col-2">
+        <div class="col-lg-2 col-md-3 col-6">
           <h5>Product</h5>
             <ul class="list-unstyled">
               <li><a href="#">Features</a></li>
@@ -173,7 +204,7 @@
               <li><a href="#">Roadmap</a></li>
             </ul>
         </div>
-        <div class="col-2">
+        <div class="col-lg-2 col-md-3 col-6">
           <h5>Platform</h5>
             <ul class="list-unstyled">
               <li><a href="#">Developer API</a></li>
@@ -183,7 +214,7 @@
               <li><a href="#">GitHub Desktop</a></li>
             </ul>
         </div>
-        <div class="col-2">
+        <div class="col-lg-2 col-md-3 col-6">
           <h5>Support</h5>
             <ul class="list-unstyled">
               <li><a href="#">Docs</a></li>
@@ -194,7 +225,7 @@
               <li><a href="#">Contact GitHub</a></li>
             </ul>
         </div>
-        <div class="col-2">
+        <div class="col-lg-2 col-md-3 col-6">
           <h5>Company</h5>
             <ul class="list-unstyled">
               <li><a href="#">About</a></li>
